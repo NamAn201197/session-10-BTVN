@@ -97,58 +97,58 @@
 
 /////////////BTVN///////////// Buổi 14
 // // // BT 1
-// let array = [1, "hello", 3.14, 42, "world", true, 10];
-// let element = [];
-// // Kiểm tra mảng
-// for( i = 0; i <= array.length - 1; i = i + 1){
-//     if (Number.isInteger(array[i])){
-//         element.push(array[i]);
-//     }
-// }
-// // điều kiện để in
-// if (element.length > 0) {
-//     console.log("Các số nguyên", element);
-// }else{
-//     console.log("không tồn tại");
-// }
+let array = [1, "hello", 3.14, 42, "world", true, 10];
+let element = [];
+// Kiểm tra mảng
+for( i = 0; i <= array.length - 1; i = i + 1){
+    if (Number.isInteger(array[i])){
+        element.push(array[i]);
+    }
+}
+// điều kiện để in
+if (element.length > 0) {
+    console.log("Các số nguyên", element);
+}else{
+    console.log("không tồn tại");
+}
 
 // // // BT 2
 
-// let array = [10, 30, 50, 70, 90];
-// let n = +prompt("Nhập giá trị bất kỳ");
-// //tìm kiếm giá trị trong mảng(indexOf)
+let array = [10, 30, 50, 70, 90];
+let n = +prompt("Nhập giá trị bất kỳ");
+//tìm kiếm giá trị trong mảng(indexOf)
 
-// let check = array.indexOf(n);
+let check = array.indexOf(n);
 
-// if (check !== -1) {
-//   console.log(
-//     "Giá trị có trong mảng: " + n,
-//     "Vị trí giá trị trong mảng: " + check
-//   );
-// } else {
-//   console.log("Không tồn tại");
-// }
+if (check !== -1) {
+  console.log(
+    "Giá trị có trong mảng: " + n,
+    "Vị trí giá trị trong mảng: " + check
+  );
+} else {
+  console.log("Không tồn tại");
+}
 
 // // // BT 3
 
-// let array = [10, 30, 50, 70, 90, 10, 30, 50, 70, 90];
-// let n = +prompt("Nhập giá trị");
+let array = [10, 30, 50, 70, 90, 10, 30, 50, 70, 90];
+let n = +prompt("Nhập giá trị");
 
-// // Biến đếm số lần xuất hiện trong mảng (count = 0;)
-// let count = 0;
+// Biến đếm số lần xuất hiện trong mảng (count = 0;)
+let count = 0;
 
-// // Lặp qua từng phần tử trong mảng và đếm số lần xuất hiện
-// for (i = 0; i <= array.length - 1; i = i + 1) {
-//   if (array[i] === n) {
-//     count = count + 1;
-//   }
-// }
+// Lặp qua từng phần tử trong mảng và đếm số lần xuất hiện
+for (i = 0; i <= array.length - 1; i = i + 1) {
+  if (array[i] === n) {
+    count = count + 1;
+  }
+}
 
-// if (count > 0) {
-//   console.log("Giá trị nhập: " + n, "Số lần xuất hiện: " + count);
-// } else {
-//   console.log("Giá trị nhập không tồn tại");
-// }
+if (count > 0) {
+  console.log("Giá trị nhập: " + n, "Số lần xuất hiện: " + count);
+} else {
+  console.log("Giá trị nhập không tồn tại");
+}
 
 // // // BT 4
 
